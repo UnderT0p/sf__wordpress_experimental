@@ -1,6 +1,4 @@
 # sf__wordpress_experimental
-install_dc - установка докер на дебиан
-wp_up - запуск двух контейнеров wordpess и mysql
 
 Для запуска контейнеров нужно сделать следующее:
 
