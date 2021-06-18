@@ -1,1 +1,2 @@
-sudo docker-compose -f wordpress.yaml -d up
+#!/bin/bash
+sudo docker-compose -f wordpess.yaml up -d
