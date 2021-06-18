@@ -9,11 +9,11 @@ cd sf__wordpress_experimental - перейти в него
 ********************************************************************************
 Установить Docker and Docker Compose, если не установлены, одним из скриптов:
 
-bash install_dc.sh - debian
+bash install_dc_deb.sh - для debian
 
-bash install_dc_ubu.sh - ubuntu
+bash install_dc_ubu.sh - для ubuntu
 
-bash install_dc_cent.sh - centos
+bash install_dc_cent.sh - для centos
 ********************************************************************************
 
 bash  wp_up.sh  - запустить скрипт, который развернет два контейнера
