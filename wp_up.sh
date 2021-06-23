@@ -1,2 +1,2 @@
 #!/bin/bash
-docker-compose -f wordpess.yaml up -d
+sudo docker-compose -f wordpess.yaml up -d
