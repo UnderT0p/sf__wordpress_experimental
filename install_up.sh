@@ -10,7 +10,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
-bash ~/sf__wordpress_staging/wp_up.sh
+bash ~/sf__wordpress_experimental/wp_up.sh
 
 elif grep -q CentOS  /etc/os-release
 then 
@@ -21,7 +21,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo systemctl start docker
-bash ~/sf__wordpress_staging/wp_up.sh
+bash ~/sf__wordpress_experimental/wp_up.sh
 
 elif grep -q Ubuntu  /etc/os-release
 then 
@@ -34,6 +34,6 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
-bash ~/sf__wordpress_staging/wp_up.sh
+bash ~/sf__wordpress_experimental/wp_up.sh
 else echo "Sorry we don't know your os"
 fi
